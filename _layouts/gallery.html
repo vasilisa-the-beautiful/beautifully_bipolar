@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<div class="grid">
+
+  {%- if site.posts.size > 0 -%}
+
+      {%- for post in site.categories.gallery_post -%}
+  
+       
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            <img src={{post.image | relative }} />
+          </a>
+      
+      
+      {%- endfor -%}
+
+  {%- endif -%}
+
+        </div>

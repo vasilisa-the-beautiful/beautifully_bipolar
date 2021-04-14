@@ -1,0 +1,65 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 785px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 296px;
+  height: 371px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 0.875rem;
+  font-family: "Playfair Display", serif;
+  text-transform: none;
+  width: 595px;
+  margin: 18px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    height: 370px;
+    margin-left: 422px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 173px;
+    margin-right: 173px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    margin-left: 391px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 93px;
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+}
+
+@font-face {
+  font-family: 'Otamendi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Otamendi.ttf);
+}
