@@ -1,4 +1,4 @@
 ---
 title: Beautifully Bipolar
-layout: default
+layout: page
 ---
